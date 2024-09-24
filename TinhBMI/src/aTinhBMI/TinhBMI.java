@@ -14,6 +14,12 @@ public class TinhBMI {
 		System.out.print("Cân nặng (kg):");
 		double canNang = banPhim.nextDouble();
 		
+		//Tính chỉ số BMI
+		double bmi = canNang/ (chieuCao*chieuCao);
+		//In thông tin ra cho người dùng
+		System.out.println("Bạn " + hoTen);
+		System.out.println("Có chỉ số BMI = " + bmi);
+		
 	}
 
 }
