@@ -1,5 +1,7 @@
 package aTinhBMI;
 
+import java.util.Scanner;
+
 public class TinhBMI {
 
 	public static void main(String[] args) {
