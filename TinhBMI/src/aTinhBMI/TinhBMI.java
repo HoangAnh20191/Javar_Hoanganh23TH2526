@@ -22,7 +22,7 @@ public class TinhBMI {
 		System.out.println("Bạn " + hoTen);
 		System.out.println("Có chỉ số BMI = " + bmi);
 		
-		//Đưa ra nhận xét
+		/*Đưa ra nhận xét
 		if (bmi<18.5)
 			System.out.println("Bạn thiếu cân, cần bổ sung thêm nhiều dinh dưỡng");
 		else if(bmi<25)
@@ -34,6 +34,19 @@ public class TinhBMI {
 		else if(bmi<40)
 			System.out.println("Bạn bị béo phì độ 2, bạn cần kiểm soát năng lượng nạp vào và tập thể dục nhiều hơn");
 		else System.out.println("Bạn bị béo phì độ 3, cần đi đến chuyên gia!!!");
+		*/
+		String thongBao;
+		if (bmi<18.5)
+			thongBao = "Bạn thiếu cân, cần bổ sung thêm nhiều dinh dưỡng";
+		else if(bmi<25)
+			thongBao = "Chúc mừng, bạn có cân nặng bình thường";
+		else if(bmi<30)
+			thongBao = "Bạn bị tiền béo phì, cân đối lại chế độ ăn uống nhé!";
+		else if(bmi<35)
+			thongBao = "Bạn bị béo phì độ 1, bạn cần tập thể dục nhiều hơn";
+		else if(bmi<40)
+			thongBao = "Bạn bị béo phì độ 2, bạn cần kiểm soát năng lượng nạp vào và tập thể dục nhiều hơn";
+		else thongBao = "Bạn bị béo phì độ 3, cần đi đến chuyên gia!!!";
 		
 	}
 
