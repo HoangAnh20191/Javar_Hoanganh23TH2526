@@ -17,14 +17,15 @@ public class NhapXuatHoTen {
 		//In ra hướng dẫn cho User biết cần làm gì
 		System.out.print("Họ tên? ");
 		hoTen = banPhim.nextLine();
-		System.out.print("Tuổi? ");
+		System.out.print("Tuổi: ");
 		tuoi = banPhim.nextInt();
-		System.out.print("Chiều cao? ");
+		System.out.print("Chiều cao (m): ");
 		chieuCao = banPhim.nextDouble();
-		System.out.print("Cân nặng ");
+		System.out.print("Cân nặng (kg): ");
 		canNang = banPhim.nextDouble();	
 		
 		// Xuất thông tin
+		System.out.println("------------------------");
 		System.out.println("Name: " + hoTen);
 		System.out.println("Age: " + tuoi);
 		System.out.println("Hight: "+ chieuCao);
