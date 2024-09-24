@@ -1,0 +1,10 @@
+package aTinhBMI;
+
+public class TinhBMI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
