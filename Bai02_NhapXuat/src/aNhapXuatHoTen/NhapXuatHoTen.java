@@ -15,7 +15,7 @@ public class NhapXuatHoTen {
 		banPhim = new Scanner(System.in); //xin mới
 		// Đọc dữ liệu từ bàn phím, cất vào các biến tương ứng
 		//In ra hướng dẫn cho User biết cần làm gì
-		System.out.print("Họ tên? ");
+		System.out.print("Họ tên: ");
 		hoTen = banPhim.nextLine();
 		System.out.print("Tuổi: ");
 		tuoi = banPhim.nextInt();
