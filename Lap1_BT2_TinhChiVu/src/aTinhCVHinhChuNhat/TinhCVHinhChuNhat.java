@@ -18,10 +18,12 @@ public class TinhCVHinhChuNhat {
 		double chuVi = (chieuDai + chieuRong)*2;
 		//Tính diện tích HCN
 		double dienTich = chieuDai*chieuRong;
-		
+		//Tìm cạnh nhỏ
+		double canhNho = Math.min(chieuDai, chieuRong);
 		//In ra kết quả
 		System.out.println("Chu vi hình chữ nhật = " + chuVi);
 		System.out.println("Diện tích hình chữ nhật = " + dienTich);
+		System.out.println("Chanh nhỏ của hình chữ nhật là: " + canhNho);
 	}
 
 }
