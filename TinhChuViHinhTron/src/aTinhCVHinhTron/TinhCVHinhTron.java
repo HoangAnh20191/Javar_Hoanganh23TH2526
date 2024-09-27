@@ -12,12 +12,14 @@ public class TinhCVHinhTron {
 		System.out.println("Nhập bán kính hình tròn: ");
 		double banKinh = HT.nextDouble();
 		
+		System.out.println("------------------");
 		//Tính chu vi
 		double chuVi = 2*PI*banKinh;
 		System.out.println("Chu vi hình tròn = " + chuVi);
 		
 		//Tính diện tích
 		double dienTich = PI*banKinh*banKinh;
+		System.out.println("Diện tích hình tròn = " + dienTich);
 
 	}
 
