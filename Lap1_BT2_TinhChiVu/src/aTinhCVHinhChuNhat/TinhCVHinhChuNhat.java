@@ -14,7 +14,14 @@ public class TinhCVHinhChuNhat {
 		System.out.println("Nhập chiều rộng: ");
 		double chieuRong = a.nextDouble();
 		
-
+		//Tính chu vi
+		double chuVi = (chieuDai + chieuRong)*2;
+		//Tính diện tích HCN
+		double dienTich = chieuDai*chieuRong;
+		
+		//In ra kết quả
+		System.out.println("Chu vi hình chữ nhật = " + chuVi);
+		System.out.println("Diện tích hình chữ nhật = " + dienTich);
 	}
 
 }
