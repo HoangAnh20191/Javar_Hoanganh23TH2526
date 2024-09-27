@@ -16,6 +16,7 @@ public class Lap1Bai4TinhPhuongTrinhBac2 {
 		System.out.println("Nhập hệ số c: ");
 		double c = PT.nextDouble();
 		//Tính delta
+		System.out.println("Denta = b^2 - 4ac");
 		double delta = Math.pow(b, 2) - 4*a*c;
 		//In ra kết quả
 		System.out.println("Denta = " + delta);
