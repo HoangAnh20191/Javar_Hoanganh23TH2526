@@ -16,10 +16,22 @@ public class Lap1Bai4TinhPhuongTrinhBac2 {
 		System.out.println("Nhập hệ số c: ");
 		double c = PT.nextDouble();
 		//Tính delta
-		System.out.println("Denta = b^2 - 4ac");
+		System.out.println("Delta = b^2 - 4ac");
 		double delta = Math.pow(b, 2) - 4*a*c;
 		//In ra kết quả
-		System.out.println("Denta = " + delta);
+		System.out.println("Delta = " + delta);
+		
+		//Tính căn bậc 2 denta
+		if (delta >=0)
+		{
+			double canDelta = Math.sqrt(delta);
+			System.out.println("Căn bậc hai của delta: " + canDelta);
+		}
+		else
+		{
+			System.out.println("Delta âm, phương trình vô nghiệm");
+		}
+		
 	}
 
 }
