@@ -9,13 +9,14 @@ public class TaoMenu {
 		int choice;
 		do {
 			//Hiển thị menu
+			System.out.println("---------------------------");
 			System.out.println("    MENU CHƯƠNG TRÌNH   ");
 			System.out.println("---------------------------");
-			System.out.println("Giải phương trình bậc nhất");
-			System.out.println("Giải phương trình bậc 2");
-			System.out.println("Tính tiền điện");
+			System.out.println("1. Giải phương trình bậc nhất");
+			System.out.println("2. Giải phương trình bậc 2");
+			System.out.println("3. Tính tiền điện");
 			System.out.println("-----------------------");
-			System.out.println("Chọn chức năng");
+			System.out.println("Chọn chức năng bạn muốn tính");
 			//Nhập lựa chọn
 			choice = abc.nextInt();
 			switch (choice) {
@@ -32,16 +33,19 @@ public class TaoMenu {
 				System.out.println("Kết thúc chương trình");
 				break;
 			default: 
-				System.out.println("Lựa chọn không hợp lệ");
+				System.out.println("Lựa chọn không hợp lệ! Chọn từ 1 đến 4");
 			}
 		}
 		while (choice !=4);
+	}
 		 // Hàm giải phương trình bậc nhất
 		public static void giaiPTBacNhat() 
 		{
 			Scanner abc = new Scanner(System.in);		
 		// Nhập hệ số a,b (phương trình bậc 1: a*x + b = 0)
-		System.out.println("Nhập hệ số a: ");
+			System.out.println("Bài toán giải phương trình bậc nhất ");
+			System.out.println("Phương trình bậc nhất: ã + b = 0 ");
+			System.out.println("Nhập hệ số a: ");
 		double a = abc.nextDouble();
 		System.out.println("Nhập hệ số b: ");
 		double b =abc.nextDouble();
@@ -62,6 +66,7 @@ public class TaoMenu {
 		public static void giaiPTBac2()
 		{
 		Scanner PT = new Scanner (System.in);
+		System.out.println("Bài toán: Giải phương trình bậc 2");
 		System.out.println("Phương trình bậc 2: ax^2 + bx + c = 0 ");
 		System.out.println("----------------------");
 		// Nhập vào các hệ số a,b,c
